@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="week4.css">
+</head>
+<style>
+    body {
+        background-color: rgb(139, 106, 148);
+    }
+</style>
+<body>
+
+
+    <nav class="navbar navbar-expand sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="week4.html">1Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNavBardropdown">
+            <ul class="navbar-nav">
+            </ul>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+
+<h1 class="shadow-text">
+    My pets at home:
+</h1>
+<br><br>
+    <div class="container">
+            <table class="table table-dark table-hover">
+            <tr>
+                <th> Name </th>
+                <th> Type of Animal </th>
+                <th> Breed </th>
+            </tr>
+            <tr>
+                <td>Gainz</td>
+                <td>Cat</td>
+                <td>Domestic Tabby</td>
+            </tr>
+            <tr>
+                <td>Poe (Edgar Allen Poe)</td>
+                <td>Cat</td>
+                <td>Black medium-short hair</td>
+            </tr>
+            <tr>
+                <td>Forest</td>
+                <td>Dog</td>
+                <td>Golden-Retriever</td>
+            </tr>
+            </table>
+        </div><br><br><br><br>
+
+<div class="container">
+        <h1 class="shadow-text">
+            To-Do List
+        </h1>
+        <div class="card" class="form-control">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-start-date"><p class="fontcolor">Start Date</p></label>
+                            <input type="date" class="form-control" id="new-start-date">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-end-date"> <p class="fontcolor">Due Date </p> </label>
+                            <input type="date" class="form-control" id="new-end-date">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <label for="new-task"> <p class="fontcolor">Task</p> </label>
+                            <input type="text" class="form-control" id="new-task" placeholder="Type Here">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <button id="add" class="btn btn-primary form-control"><p id="font-size" class="fontcolor">Submit</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+                <table id="list" class="table table-dark table-striped">
+            <tr class="bg-info">
+                <th> Task </th>
+                <th> Date Created </th>
+                <th> Start Date </th>
+                <th> Due Date </th>
+                <th class="fontcolor"> Accountability </th>
+            </tr>
+        </table>
+    </div>
+    </div>
+        <br><br><br><br>
+
+
+    <script src="week4.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

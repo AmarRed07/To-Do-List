@@ -1,0 +1,29 @@
+.shadow-text {
+    text-shadow: 1px 1px lightblue;
+}
+
+tr :hover {
+    background-color:lightblue;
+}
+
+tr :hover {
+    background-color:rgb(14, 53, 66);
+}
+
+.background {
+    background-color: bisque;
+    /* color: bisque; */
+}
+
+
+.form-control {
+  background-color: #96d3ec;
+}
+
+.fontcolor {
+    color: rgb(139, 106, 148)
+}
+
+#font-size {
+    font-size: larger;
+}
